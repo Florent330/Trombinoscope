@@ -1,0 +1,567 @@
+h1,h2,h3,h4,h5{
+    font-family: 'Pontano Sans', sans-serif;
+}
+body{
+    font-family: 'Sintony', sans-serif; /* ATTENTION déjà une police plus bas */
+
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+body {
+    font-family: "Helvetica Neue",sans-serif;
+    font-weight: lighter;
+}
+
+header {
+    width: 100%;
+    background-size: contain;
+    margin-bottom: 40px;
+}
+
+.logo 
+{
+    display: flex;
+    align-items: center;
+    position: fixed;
+    letter-spacing: 2px;
+    top: 0;
+    bottom:0;
+    left: 2%;
+    width: 200px;
+    max-height: 92px;
+}
+
+.main-logo
+{
+    width: 30%;
+    display:inline-block;
+}
+
+.main-title
+{
+    color: white;
+    font-size: 1em;
+    display:inline-block;
+}
+
+.active a
+{
+    color: #f99797;
+}
+    
+a:hover
+{
+    color: #f99797;
+}
+
+.color-wild
+{
+    color: #f99797;
+}
+.nav-top-box
+{
+    padding-left: 0;
+    padding-right: 0;
+}
+.nav-img-top
+{
+    width: 100%; 
+    filter: contrast(75%);
+}
+
+@media(max-width: 786px)
+{
+    .nav-img-top
+    {
+        margin-top: 60px;
+    }
+
+    .main-logo
+    {
+        width: 20%;
+    }
+
+}
+
+.content {
+    width: 94%;
+    margin: 4em auto;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: justify;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+     line-height: 60px;
+    left: 0;
+    z-index: 20;
+}
+
+nav ul {
+    line-height: 60px;
+    list-style: none;
+    background: rgba(0, 0, 0, 0);
+    overflow: hidden;
+    color: #fff;
+    padding: 0 40px 0 0;
+    text-align: right;
+    margin: 0;
+    transition: 1s;
+}
+
+nav.black ul {
+    background: #000;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 16px 40px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 1s;
+}
+
+
+.menu-icon {
+    line-height: 60px;
+    width: 100%;
+    background: #000;
+    text-align: right;
+    box-sizing: border-box;
+    padding: 15px 24px;
+    cursor: pointer;
+    color: #fff;
+    display: none;
+}
+
+@media(max-width: 786px) {
+
+    .logo
+    {
+        max-height: 62px;
+    }
+
+    nav ul {
+        max-height: 0;
+        background: #000;
+    }
+
+    nav.black ul {
+        background: #000;
+    }
+
+    .showing {
+        max-height: 34em;
+    }
+
+    nav ul li {
+        box-sizing: border-box;
+        width: 100%;
+        padding: 24px;
+        text-align: center;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+
+}
+
+/***************************/
+/***** Text Writing ********/
+/***************************/
+
+.nav-text-img-box
+{
+    position: relative;
+}
+
+.writing-text{
+    top: 50%;
+    transform: translateY(-50%);
+    left: 10%;
+    position: absolute;
+}
+
+/***************************/
+/******* Page Index ********/
+/***************************/
+.body_text{
+     padding-top: 50px;
+     text-align: center;
+ }
+.body_text p{
+    margin-top: 40px;
+}
+.underline_title{
+    border-top: 2px solid rgb(243,108,108);
+    width: 80px;
+    margin: auto;
+}
+.body_text h3{
+    padding-bottom: 10px;
+    text-align: center;
+
+}
+
+.body_img2{
+    background: linear-gradient(rgba(0,0,0,0.66), rgba(0,0,0,0.66)), url('https://media.boalingua.ch/images/frankreich_bordeaux_wasser-platz02.jpg') no-repeat fixed;
+    background-size: cover;
+    opacity: 0.9;
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+}
+.body_img2 h3{
+    text-align: center;
+    margin-top: 200px;
+    font-size: 3.5em;
+    color: white;
+}
+.body_img2 span{
+    border-bottom: 2px solid #f99797;
+    padding-bottom: 6px;
+}
+.body_icone{
+    z-index: 1;
+    margin-top:20px;
+    text-align: center;
+    padding: 131px;
+    color: white;
+}
+.body_icone p{
+    font-size: 2em;
+}
+.body_icone_text{
+    margin-top: 50px;
+}
+
+.body_img3{
+    margin-bottom:30px; 
+    margin-top: 40px;
+}
+
+.body_img3::before {
+    position: absolute;
+    content: " ";
+    top: -5px;
+    left: 70px;
+    border: 4px solid #f99797;
+    width: 77%;
+    height: 85%;
+}
+.logo_img3{
+    background-color: white;
+    position: relative;
+}
+
+@media(max-width:768px)
+{
+    .body_img2 h3
+    {
+        margin-top: 40px;
+        margin-bottom: 80px;
+    }
+
+    .body_icone
+    {
+        padding-top: 0;
+        padding-bottom: 0;
+        margin-bottom: 40px
+    }
+}
+/***************************/
+/***** Trombinoscope *******/
+/***************************/
+
+.trombi-box-pict
+{
+    margin: 20px auto 20px auto;
+    position: relative;
+}
+
+.trombi-pict
+{
+    width: 100%;
+}
+
+.trombi-bloc-text
+{
+    visibility: hidden;
+    transition: 1.5s;
+    bottom: 0;
+    position: absolute;
+    width: 89.3%;
+    height: 60px;
+    left: 5.5%; 
+    background-color: #000000bf;
+    opacity:0;
+}
+
+.trombi-text-title
+{
+    color: #f99797;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+.trombi-text-subtitle
+{
+    color: white;
+
+}
+
+.trombi-box-pict a:hover ~ .trombi-bloc-text
+{
+    visibility: visible;
+    opacity: 1;
+    transition: 1.5s;
+}
+
+/***************************/
+/***** Contact Form ********/
+/***************************/
+
+.form-title-box
+{
+    margin-bottom: 40px
+}
+.form-title
+{
+    text-align: center;
+}
+.form-underline
+{
+    border-top: 2px solid #f99797;
+    width: 80px;
+    margin:auto;
+}
+.form-title-bold
+{
+    font-weight: bolder;
+}
+.contact-btn-bloc
+{
+    margin: 2% 2%;
+    justify-content: center;
+}
+.form-box
+{
+    border-radius: 0;
+    border: 1px solid #9e9e9e;
+}
+.contact-btn
+{
+    border-radius: 0;
+    background-color: #000000;
+    color: white;
+    transition: 1.5s;
+    margin-top: 18px;
+}
+
+.contact-btn:hover
+{
+    background-color:#f99797;
+    transition: 1.5s;
+}
+.contact-form-group
+{
+    margin-bottom: 5px;
+}
+
+/******* Map **********/
+.form-map
+{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.form-map-container
+{
+    overflow:hidden;
+    width: 100%;
+}
+
+.form-map-title-box
+{
+    position: absolute;
+    width: 80%;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    color: #000;
+    text-align: center;
+}
+
+/***************************/
+/********* Profil **********/
+/***************************/
+@media screen and (max-width: 768px) {
+    .profil_about {
+        visibility: hidden;
+
+    }
+}
+
+.profil_text-title{
+   margin: auto;
+}
+
+.profil_text-title h3{
+    font-size: 4em;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.profil_title{
+    text-align: center;
+
+}
+.underline_title{
+    border-top: 2px solid rgb(243,108,108);
+    width: 80px;
+    margin: auto;
+}
+
+
+.profil_portrait1{
+  width: 100%;
+  
+}
+
+.profil_text{
+   margin-top: 30px;
+   margin-left: 30px;
+   text-align:justify;
+}
+.profil_text2{
+    font-weight: bold;
+}
+.profil_about{
+    position: relative;
+    writing-mode: vertical-rl;
+    top: 200px;
+    letter-spacing: 4px;
+}
+.profil_about2{
+    color: white;
+    text-decoration-line: line-through;
+    text-decoration-color: black;
+}
+
+.profil_nom
+{
+    margin-left: 30px;
+    top: 80px;
+    font-size: 4em;
+}
+.profil_logo
+{
+    margin-top: 60px;
+}
+
+@media(max-width: 767px)
+{
+    .profil-wildlogo-box
+    {
+       justify-content: center;  
+    }
+    .profil_text
+    {
+        margin-left: 0;
+    }
+    .profil-text-box
+    {
+        margin-top: -100px;
+    }
+}
+
+/***************************/
+/********* Footer **********/
+/***************************/
+footer{
+    margin-top: 40px;
+}
+.nav-footer{
+    background-color: #191919;
+    width: 100%;
+    justify-content: space-around;
+    padding: 0 30px;
+
+}
+.nav-footer ul li{
+
+margin: 5px;
+padding: 5px;
+list-style-type: none;
+}
+
+.nav-footer a, h5, h4{
+    color: white;
+}
+
+.nav-footer p{
+    color: #a79090;
+}
+.rose-link{
+    color: #f99797 ;
+    font-size: 20px;
+}
+.nav-footer .ligne{
+    color: #f99797;
+    text-align: center;
+
+}
+
+.entrez{
+    height: 50px;
+    color: #a79090;
+    background-color: #191919;
+    font-size: 12px;
+
+}
+.nav-footer-bouton{
+    height: 50px;
+    background-color: #191919;
+    font-size: 30px;
+    border-left: 0;
+    color:  white;
+}
+
+.footer-copyright{
+    color: #a79090;
+}
+
+.arrond{
+    border-radius: 20%;
+}
+
+.bouton-centre{
+
+width: 100%;
+
+display: flex;
+
+justify-content: center;
+
+flex-direction: row;
+}
+
+.footer-btn
+{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    border-radius: 20%;
+}
