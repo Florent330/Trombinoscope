@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -11,6 +12,4 @@
     <link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Numans'>
     <link rel="stylesheet" media="screen and (max-width: 640px)" href="style.css" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Pontano+Sans|Sintony" rel="stylesheet">
-    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
-    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
 </head>

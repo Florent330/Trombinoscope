@@ -1,8 +1,6 @@
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
-<!------ Include the above in your HEAD tag ---------->
-
+<?php
+include '_head.php';
+?>
 
 <body>
 <div class="wrapper">
@@ -201,5 +199,10 @@
         });
     }).resize();
 </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+
 </body>
 </html>
